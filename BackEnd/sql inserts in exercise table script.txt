@@ -1,0 +1,654 @@
+/* Abdominal exercises */
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Legs down hold',  
+	'Abdominals', 
+	1,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Abdominals/Legs down hold.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Laying Leg Raises',  
+	'Abdominals', 
+	2,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Abdominals/Laying Leg Raises.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Russian Twists',  
+	'Abdominals', 
+	3,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Abdominals/Russian Twists.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Crunches',  
+	'Abdominals', 
+	4,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Abdominals/Crunches.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Barbell Roll Outs',  
+	'Abdominals', 
+	5,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Abdominals/Barbell Roll Outs.png'),
+	3);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Twisting Crunches',  
+	'Abdominals', 
+	6,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Abdominals/Twisting Crunches.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Elbow Plank',  
+	'Abdominals', 
+	7,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Abdominals/Elbow Plank.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Side plank pulses',  
+	'Abdominals', 
+	8,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Abdominals/Side plank pulses.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Otis Up',  
+	'Abdominals', 
+	9,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Abdominals/Otis Up.png'),
+	3);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Jack Knife Situps',  
+	'Abdominals', 
+	10,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Abdominals/Jack Knife Situps.png'),
+	1);
+	
+/* Chest exercises */
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Barbell Bench Press',  
+	'Chest', 
+	11,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Chest/Barbell Bench Press.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Push-ups',  
+	'Chest', 
+	12,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Chest/Push-ups.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Diamond push-ups',  
+	'Chest', 
+	13,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Chest/Diamond push-ups.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Cable Crossover',  
+	'Chest', 
+	14,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Chest/Cable Crossover.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Incline Bench Press',  
+	'Chest', 
+	15,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Chest/Incline Bench Press.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Chest Dips',  
+	'Chest', 
+	16,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Chest/Chest Dips.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Incline Dumbbell Press',  
+	'Chest', 
+	17,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Chest/Incline Dumbbell Press.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Close-Grip Bench Press',  
+	'Chest', 
+	18,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Chest/Close-Grip Bench Press.png'),
+	3);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Elevated Pike Push-ups',  
+	'Chest', 
+	19,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Chest/Elevated Pike Push-ups.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Single-Arm Dumbbell Bench Press',  
+	'Chest', 
+	20,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Chest/Single-Arm Dumbbell Bench Press.png'),
+	2);
+	
+/* Shoulders exercises */
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Standing Military Press',  
+	'Shoulders', 
+	21,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Shoulders/Standing Military Press.png'),
+	3);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Arnold Press',  
+	'Shoulders', 
+	22,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Shoulders/Arnold Press.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Lateral Raise',  
+	'Shoulders', 
+	23,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Shoulders/Lateral Raise.png'),
+	1);
+
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Front Raise',  
+	'Shoulders', 
+	24,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Shoulders/Front Raise.png'),
+	1);
+
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Upright Row',  
+	'Shoulders', 
+	25,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Shoulders/Upright Row.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Cable Face Pull',  
+	'Shoulders', 
+	26,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Shoulders/Cable Face Pull.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Push Press',  
+	'Shoulders', 
+	27,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Shoulders/Push Press.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Handstand Push-Up',  
+	'Shoulders', 
+	28,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Shoulders/Handstand Push-Up.png'),
+	3);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Seated One Arm Dumbbell Shoulder Press',  
+	'Shoulders', 
+	29,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Shoulders/Seated One Arm Dumbbell Shoulder Press.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Cable Front Raise',  
+	'Shoulders', 
+	30,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Shoulders/Cable Front Raise.png'),
+	1);
+	
+/* Back exercises */
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Pull-ups',  
+	'Back', 
+	31,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Back/Pull-ups.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Bent-over rows',  
+	'Back', 
+	32,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Back/Bent-over rows.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Seated cable rows',  
+	'Back', 
+	33,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Back/Seated cable rows.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Lat pulldowns',  
+	'Back', 
+	34,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Back/Lat pulldowns.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Good mornings',  
+	'Back', 
+	35,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Back/Good mornings.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Weighted hyperextensions',  
+	'Back', 
+	36,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Back/Weighted hyperextensions.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('T-bar rows',  
+	'Back', 
+	37,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Back/T-bar rows.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('One-arm dumbbell rows',  
+	'Back', 
+	38,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Back/One-arm dumbbell rows.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Chin-ups',  
+	'Back', 
+	39,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Back/Chin-ups.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Barbell shrugs',  
+	'Back', 
+	40,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Back/Barbell shrugs.png'),
+	1);
+	
+/* Biceps exercises */
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Standing barbell curls',  
+	'Biceps', 
+	41,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Biceps/Standing barbell curls.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Hammer curls',  
+	'Biceps', 
+	42,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Biceps/Hammer curls.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Preacher curls',  
+	'Biceps', 
+	43,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Biceps/Preacher curls.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Incline dumbbell curls',  
+	'Biceps', 
+	44,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Biceps/Incline dumbbell curls.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Concentration curls',  
+	'Biceps', 
+	45,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Biceps/Concentration curls.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Cable curls',  
+	'Biceps', 
+	46,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Biceps/Cable curls.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('EZ bar curls',  
+	'Biceps', 
+	47,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Biceps/EZ bar curls.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Band curls',  
+	'Biceps', 
+	48,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Biceps/Band curls.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Cross body hammer curls',  
+	'Biceps', 
+	49,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Biceps/Cross body hammer curls.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('One-arm cable curls',  
+	'Biceps', 
+	50,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Biceps/One-arm cable curls.png'),
+	1);
+	
+/* Triceps exercises */
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Close-grip bench press',  
+	'Triceps', 
+	51,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Triceps/Close-grip bench press.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Triceps cable pushdown',  
+	'Triceps', 
+	52,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Triceps/Triceps cable pushdown.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Diamond push-up',  
+	'Triceps', 
+	53,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Triceps/Diamond push-up.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Dips on parallel bars',  
+	'Triceps', 
+	54,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Triceps/Dips on parallel bars.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Overhead triceps dumbbells extension',  
+	'Triceps', 
+	55,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Triceps/Overhead triceps dumbbells extension.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Triceps kickback',  
+	'Triceps', 
+	56,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Triceps/Triceps kickback.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Skull crusher',  
+	'Triceps', 
+	57,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Triceps/Skull crusher.png'),
+	3);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Bench dips',  
+	'Triceps', 
+	58,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Triceps/Bench dips.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Single-arm cable triceps extension',  
+	'Triceps', 
+	59,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Triceps/Single-arm cable triceps extension.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Elevated bench dips',  
+	'Triceps', 
+	60,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Triceps/Elevated bench dips.png'),
+	2);
+	
+/* Legs exercises */
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Barbell squats',  
+	'Legs', 
+	61,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Legs/Barbell squats.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Dumbbell Deadlift',  
+	'Legs', 
+	62,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Legs/Dumbbell Deadlift.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Forward lunges',  
+	'Legs', 
+	63,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Legs/Forward lunges.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Leg press',  
+	'Legs', 
+	64,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Legs/Leg press.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Weighted calf raises',  
+	'Legs', 
+	65,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Legs/Weighted calf raises.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Bulgarian split squats',  
+	'Legs', 
+	66,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Legs/Bulgarian split squats.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Box jumps',  
+	'Legs', 
+	67,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Legs/Box jumps.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Dumbbell Glute bridges',  
+	'Legs', 
+	68,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Legs/Dumbbell Glute bridges.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Hamstring leg curls',  
+	'Legs', 
+	69,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Legs/Hamstring leg curls.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Wall sits',  
+	'Legs', 
+	70,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Legs/Wall sits.png'),
+	1);
+	
+/* Forearms exercises */
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Reverse curls',  
+	'Forearms', 
+	71,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Forearms/Reverse curls.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Farmer\'s walk',  
+	'Forearms', 
+	72,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Forearms/Farmer\'s walk.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Plate curls',  
+	'Forearms', 
+	73,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Forearms/Plate curls.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Wrist rollers',  
+	'Forearms', 
+	74,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Forearms/Wrist rollers.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Hammer curls with dumbbells',  
+	'Forearms', 
+	75,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Forearms/Hammer curls with dumbbells.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Bar hangs',  
+	'Forearms', 
+	76,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Forearms/Bar hangs.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Bicep curls with a thick grip',  
+	'Forearms', 
+	77,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Forearms/Bicep curls with a thick grip.png'),
+	2);
+	
+/* Cardio exercises */
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Battle ropes',  
+	'Cardio', 
+	78,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Cardio/Battle ropes.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Bicycle crunches',  
+	'Cardio', 
+	79,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Cardio/Bicycle crunches.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Burpees',  
+	'Cardio', 
+	80,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Cardio/Burpees.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Cycling',  
+	'Cardio', 
+	81,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Cardio/Cycling.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('High knees',  
+	'Cardio', 
+	82,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Cardio/High knees.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Jumping Jacks',  
+	'Cardio', 
+	83,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Cardio/Jumping jacks.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Jumping lunges',  
+	'Cardio', 
+	84,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Cardio/Jumping lunges.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Jumping rope',  
+	'Cardio', 
+	85,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Cardio/Jumping rope.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Jumping squads',  
+	'Cardio', 
+	86,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Cardio/Jumping squads.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Kettlebell swings',  
+	'Cardio', 
+	87,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Cardio/Kettlebell swings.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Mountain climber twists',  
+	'Cardio', 
+	88,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Cardio/Mountain climber twists.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Mountain climbers',  
+	'Cardio', 
+	89,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Cardio/Mountain climbers.png'),
+	1);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Plank jacks',  
+	'Cardio', 
+	90,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Cardio/Plank jacks.png'),
+	2);
+	
+INSERT INTO `fitnessgoaldb`.`exercise` (`exercise_name`, `exercise_muscle_category`, `exercise_image_id`, `exercise_image`, `exercise_difficulty_level`) 
+	VALUES ('Running',  
+	'Cardio', 
+	91,
+	LOAD_FILE('D:/FII/Licenta/Database/Images Exercises/Cardio/Running.png'),
+	1);
+	
+	
+
+	
+
+	
+
+
+

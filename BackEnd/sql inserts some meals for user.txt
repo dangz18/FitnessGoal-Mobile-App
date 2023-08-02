@@ -1,0 +1,35 @@
+/*ziua de maine*/
+insert into meal_plan_day(user_id, meal_day) 
+values(1, '2023-05-08');
+
+/*cele 3 mese pe ziua respectiva*/
+insert into meal_plan_meals(meal_id, meal_day_id)
+values(1, 1);
+insert into meal_plan_meals(meal_id, meal_day_id)
+values(21, 1);
+insert into meal_plan_meals(meal_id, meal_day_id)
+values(41, 1);
+
+/*ziua de poimaine*/
+insert into meal_plan_day(user_id, meal_day) 
+values(1, '2023-05-09');
+
+/*cele 3 mese pe ziua respectiva*/
+insert into meal_plan_meals(meal_id, meal_day_id)
+values(2, 2);
+insert into meal_plan_meals(meal_id, meal_day_id)
+values(22, 2);
+insert into meal_plan_meals(meal_id, meal_day_id)
+values(42, 2);
+
+/*ziua de raspoimaine*/
+insert into meal_plan_day(user_id, meal_day) 
+values(1, '2023-05-10');
+
+/*cele 3 mese pe ziua respectiva*/
+insert into meal_plan_meals(meal_id, meal_day_id)
+values(3, 3);
+insert into meal_plan_meals(meal_id, meal_day_id)
+values(23, 3);
+insert into meal_plan_meals(meal_id, meal_day_id)
+values(43, 3);

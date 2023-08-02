@@ -1,0 +1,12 @@
+/*ziua de azi*/
+insert into workout_day(user_id, workout_day) 
+values(9, '2023-05-25');
+
+/*exercitii din ziua respectiva*/
+insert into workout_exercises(exercise_id, repetitions, workout_day_id)
+values(1, 15, 1);
+insert into workout_exercises(exercise_id, repetitions, workout_day_id)
+values(2, 20, 1);
+insert into workout_exercises(exercise_id, repetitions, workout_day_id)
+values(3, 25, 1);
+

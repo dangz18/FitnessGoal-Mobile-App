@@ -1,0 +1,170 @@
+TABLE: Users
+Columns: id_user (primary key), user_name, user_email, user_password, user_genre, user_height, user_weight, user_birthdate, user_waterPerDay
+
+TABLE: Exercises
+Columns: exercise_id (primary key), exercise_name, exercise_image, exercise_muscle_category, exercise_difficulty
+
+TABLE: Meals
+Columns: meal_id (primary key), meal_name, meal_image, meal_ingredients, meal_instructions, meal_category, vegetarian (bool), meal_kcal, meal_fat, meal_saturates, meal_сarbs, meal_sugars, meal_fibre, meal_protein, meal_salt
+
+TABLE: Posts
+Columns: post_id (primary key), id_user (foreign key), post_text, post_date
+
+//Pentru a stoca hashtag-urile pentru fiecare post
+TABLE: Posts_Hashtags
+Columns: post_id(foreign key), post_hashtag
+
+//Pentru a stoca planul de exercitii pentru fiecare user
+TABLE: Workout_Day
+Columns: workout_day_id (primary key), id_user (foreign key), workout_day (DATE)
+
+TABLE: Workout_Exercises
+Columns:  workout_exercise_id (primary key) , workout_day_id (foreign key), exercise_id (foreign key)
+
+//Pentru a stoca planul de nutritie pentru fiecare user
+TABLE: Meal_Plan_Day
+Columns: meal_day_id (primary key), id_user (foreign key), meal_day
+
+TABLE: Meal_Plan_Meals
+Columns:  meal_plan_meals_id (primary key) , meal_day_id (foreign key), meal_id (foreign key)
+
+//Pentru a stoca planul de hidratare pentru fiecare user
+TABLE: Hydration_History
+Columns: id_user (foreign key), water_consumed, date
+
+//Pentru a stoca progresul greutatii corpului
+TABLE: Weight_History
+Columns: id_user (primary key), weight, weight_date
+
+//Pentru a stoca progresul inaltimii corpului
+TABLE: Height_History
+Columns: id_user (primary key), height, height_date
+
+
+
+SCRIPTS FOR CREATING TABLES:
+use fitnessgoaldb;
+DROP TABLE IF EXISTS height_history;
+DROP TABLE IF EXISTS weight_history;
+
+DROP TABLE IF EXISTS hydration_history;
+
+DROP TABLE IF EXISTS workout_exercises;
+DROP TABLE IF EXISTS workout_day;
+
+DROP TABLE IF EXISTS meal_plan_meals;
+DROP TABLE IF EXISTS meal_plan_day;
+
+DROP TABLE IF EXISTS post_hashtags;
+DROP TABLE IF EXISTS post;
+DROP TABLE IF EXISTS utilizator;
+DROP TABLE IF EXISTS exercise;
+DROP TABLE IF EXISTS meal;
+
+
+ /* Tabela cu exercitii */
+CREATE TABLE IF NOT EXISTS exercise(exercise_id INT NOT NULL PRIMARY KEY auto_increment, 
+	exercise_name VARCHAR(1000) NOT NULL, 
+	exercise_muscle_category VARCHAR(100) NOT NULL,
+	exercise_difficulty_level TINYINT NOT NULL,
+	exercise_image_id INT NOT NULL UNIQUE, 
+	exercise_image LONGBLOB NOT NULL
+);
+ 
+ /* Tabela cu bucate */
+ CREATE TABLE IF NOT EXISTS meal(meal_id INT NOT NULL PRIMARY KEY auto_increment, 
+	meal_name VARCHAR(1000) NOT NULL, 
+	meal_ingredients TEXT, 
+    meal_instructions TEXT, 
+    meal_category VARCHAR(100), 
+    vegetarian BOOLEAN NOT NULL default 0, 
+    meal_kcal FLOAT, 
+    meal_fat FLOAT, 
+    meal_saturates FLOAT,
+    meal_сarbs FLOAT, 
+    meal_sugars FLOAT, 
+    meal_fibre FLOAT, 
+    meal_protein FLOAT,
+    meal_salt FLOAT,
+    meal_image_id INT NOT NULL UNIQUE, 
+	meal_image LONGBLOB NOT NULL
+);
+    
+ /* Tabela utilizatorului */
+CREATE TABLE IF NOT EXISTS utilizator(user_id INT NOT NULL PRIMARY KEY auto_increment,
+	user_name VARCHAR(1000) NOT NULL,
+    user_email VARCHAR(100) NOT NULL,
+    user_password CHAR(60) NOT NULL,
+    user_genre VARCHAR(10) NOT NULL,
+    user_height FLOAT NOT NULL,
+    user_weight FLOAT NOT NULL,
+    user_birthdate DATE NOT NULL,
+	user_waterPerDay FLOAT NOT NULL,
+	user_fitness_level TINYINT NOT NULL,
+	UNIQUE (user_email)
+);
+
+/* Tabela pentru postari */
+CREATE TABLE IF NOT EXISTS post(post_id INT NOT NULL PRIMARY KEY auto_increment,
+	user_id INT NOT NULL,
+    post_text TEXT NOT NULL,
+    post_date DATE NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES utilizator(user_id)
+);
+
+/* Pentru a stoca hashtag-urile postarilor */
+CREATE TABLE IF NOT EXISTS post_hashtags(post_id INT NOT NULL,
+	post_hashtag TEXT NOT NULL,
+	FOREIGN KEY (post_id) REFERENCES post(post_id)
+);
+
+
+/* Pentru a stoca planul de exercitii pentru fiecare user */
+CREATE TABLE IF NOT EXISTS workout_day(workout_day_id INT NOT NULL PRIMARY KEY auto_increment,
+	user_id INT NOT NULL,
+    workout_day DATE NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES utilizator(user_id)
+);
+
+CREATE TABLE IF NOT EXISTS workout_exercises(workout_exercise_id INT NOT NULL PRIMARY KEY auto_increment,
+	exercise_id INT NOT NULL,
+	repetitions INT NOT NULL,
+	is_done BOOLEAN NOT NULL default 0,
+    workout_day_id INT NOT NULL,
+    FOREIGN KEY (exercise_id) REFERENCES exercise(exercise_id),
+    FOREIGN KEY (workout_day_id) REFERENCES workout_day(workout_day_id)
+);
+
+/* Pentru a stoca planul de nutritie pentru fiecare user */
+CREATE TABLE IF NOT EXISTS meal_plan_day(meal_day_id INT NOT NULL PRIMARY KEY auto_increment,
+	user_id INT NOT NULL,
+    meal_day DATE NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES utilizator(user_id)
+);
+
+CREATE TABLE IF NOT EXISTS meal_plan_meals(meal_plan_meals_id INT NOT NULL PRIMARY KEY auto_increment,
+	meal_id INT NOT NULL,
+    meal_day_id INT NOT NULL,
+    FOREIGN KEY (meal_id) REFERENCES meal(meal_id),
+    FOREIGN KEY (meal_day_id) REFERENCES meal_plan_day(meal_day_id)
+);
+
+CREATE TABLE IF NOT EXISTS hydration_history(user_id INT NOT NULL,
+	water_consumed FLOAT NOT NULL,
+	hydration_date DATE NOT NULL,
+	FOREIGN KEY (user_id) REFERENCES utilizator(user_id)
+);
+
+CREATE TABLE IF NOT EXISTS weight_history(user_id INT NOT NULL,
+	weight FLOAT NOT NULL,
+	weight_date DATE NOT NULL,
+	FOREIGN KEY (user_id) REFERENCES utilizator(user_id)
+);
+
+CREATE TABLE IF NOT EXISTS height_history(user_id INT NOT NULL,
+	height FLOAT NOT NULL,
+	height_date DATE NOT NULL,
+	FOREIGN KEY (user_id) REFERENCES utilizator(user_id)
+);
+
+
